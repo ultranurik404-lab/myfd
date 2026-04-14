@@ -1,6 +1,7 @@
 require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
-const { Client, Databases, Storage, ID, InputFile } = require('node-appwrite');
+const { Client, Databases, Storage, ID } = require('node-appwrite');
+const { InputFile } = require('node-appwrite/file');
 const https = require('https');
 const http = require('http');
 
